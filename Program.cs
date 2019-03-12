@@ -11,7 +11,7 @@ class Josephus
         else
             return (josephus(n - 1, k)+ k - 1) % n + 1;
     }
-    public static void Main()
+    public static void Main(String args[])
     {
         string userinput;
         int n;
