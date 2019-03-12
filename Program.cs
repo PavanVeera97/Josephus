@@ -4,7 +4,7 @@ using System;
 class Josephus
 {
 
-    static int josephus(int n, int k)
+   public static int josephus(int n, int k)
     {
         if (n == 1)
             return 1;
