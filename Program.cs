@@ -16,10 +16,10 @@ class Josephus
         string userinput;
         int n;
         int k = 2;
-        Console.Write("Enter the Number of soldiers");
+        Console.Write("Enter the Number of Soldiers");
         userinput = Console.ReadLine();
         n = Convert.ToInt32(userinput);
-        Console.WriteLine("The place chosen to stand is " + josephus(n, k));
+        Console.WriteLine("The safe position chosen to stand is " + josephus(n, k));
         Console.ReadKey();
     }
 }
